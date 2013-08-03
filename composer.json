@@ -1,0 +1,24 @@
+{
+	"name": "silexlab/silexquery",
+	"type": "library",
+	"description": "Lightweight query generator for different SQL servers",
+	"license": "GPL-3.0",
+	"authors": [
+		{
+			"name": "Janek Ostendorf (ozzy)",
+			"email": "ozzyfant@gmail.com"
+		}
+	],
+	"support": {
+		"irc": "irc://irc.skyirc.net/silexlab",
+		"issues": "https://github.com/SilexLab/SilexQuery/issues"
+	},
+	"require": {
+		"php": ">=5.4.0"
+	},
+	"autoload": {
+		"classmap": [
+			"src/MinePHPQuery.class.php"
+		]
+	}
+}
